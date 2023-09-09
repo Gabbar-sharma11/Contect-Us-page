@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header,footer{
+    background-color: black;
+    color: rgb(238, 245, 245);
+    padding: 20px;
+    text-align: center;
+}
+main{
+    padding: 20px;
+    text-align: center;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+}
+.signup-form label {
+    font-weight: bold;
+
+
+}
+.signup-form input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1.6rem;
+}
